@@ -140,7 +140,7 @@ There are 4 Numerical columns totals and their statistical distribution is given
 
 1. **Applicant income Histogram Distribution**
 
-![](RackMultipart20221205-1-ut6qfb_html_eb11cb8d5fe33b9b.png)
+![]("https://github.com/david-fuzz-flame/capstone/blob/main/images/confusion.png")
 
 The histogram here shows that the applicant's income is left skewed which means it distribution is positively skewed.
 
