@@ -2,8 +2,8 @@
 The creation of ML models that may assist the business in predicting loan acceptance is anticipated to hasten the process of deciding whether or not an application is suitable for a loan.
 
 ## Author
-- *Name*: Akshay Reddy Golamari
-- *Student ID*: 20012951
+- **Name**: Akshay Reddy Golamari
+- **Student ID**: 20012951
 
 ## Files Names and Significances
 
