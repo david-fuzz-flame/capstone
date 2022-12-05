@@ -188,7 +188,7 @@ The targeted variables are as follows 'gender', 'married', 'dependents', 'educat
 
 Then followed by encoding the variables accordingly
 
-![](RackMultipart20221205-1-ut6qfb_html_b20c88477970ba4f.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code2.png)
 
 1. **Dealing With Null Values.**
 
@@ -196,13 +196,13 @@ While going through the dataset, we found out that there are null values in a nu
 
 We will be using the KNN-Imputer in order to fill the columns with the relevant values which resemble their similar neighbours. This will help us to not go vaguely filling null values with mean, medians or mode values.
 
-![](RackMultipart20221205-1-ut6qfb_html_996cf2997949919.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code3.png)
 
 1. **Dealing with Outliers**
 
 An outlier is a data point that deviates significantly from other findings. An observation in our data that is inaccurate or odd when compared to other observations can also be referred to as an outlier. Measurement uncertainty or experimental error are two possible causes of outliers. Outliers in the data can sabotage and mislead the machine learning model training process, leading to less accurate models and ultimately poor performance. Let's look at how we can identify outliers in our data now that we are aware.
 
-![](RackMultipart20221205-1-ut6qfb_html_a595ff98689d76b1.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code4.png)
 
 There are 2 ways of dealing with outliers.
 
@@ -213,35 +213,35 @@ There are 2 ways of dealing with outliers.
 
 Here all the values outside the threshold are given converted to their threshold values. Here the threshold is set to 1.5.
 
-![](RackMultipart20221205-1-ut6qfb_html_c5e7f9e13452a938.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code5.png)
 
 **Using IQR**
 
 Using the IQR you calculate the Lower Quartile Range (LQR) and Upper Quartile Range (UQR) and the values below LQR are converted to LQR, and values above UQR are converted to UQR.
 
-![](RackMultipart20221205-1-ut6qfb_html_6b2dd04558fef39f.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code6.png)
 
 We will be choosing the IQR method.
 
 1. **Dealing with Unbalanced Data**
 
-![](RackMultipart20221205-1-ut6qfb_html_eeafb30010c8eb51.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code7.png)
 
 As shown in above figure, we can see that the data of the target variable 'loan status' is highly unbalanced. So, we need to balance the data so that the models are not biased towards the '1's in the target variable.
 
 We will be Oversampling the '0' labelled rows and balance the difference between both.
 
-![](RackMultipart20221205-1-ut6qfb_html_afdce60b3f99d19a.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code8.png)
 
 1. **Splitting the dataset into train and test sets**
 
 Before going for splitting the dataset into train and test set, the dataset must be first separated to features and target variable.
 
-![](RackMultipart20221205-1-ut6qfb_html_8d00f08f5c96d585.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code9.png)
 
 _Splitting the dataset into 70:30 Train: Test Split_
 
-![](RackMultipart20221205-1-ut6qfb_html_67344021947bd013.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code10.png)
 
 NOTE: We have also Normalized the data so that the entire dataset is on the same scale (Using MinMaxScalar).
 
@@ -277,7 +277,7 @@ missing=nan, monotone\_constraints='()', n\_estimators=100,
 
 #### **ROC Curve**
 
-![](RackMultipart20221205-1-ut6qfb_html_9a91fe285e8c80ee.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code11.png)
 
 # Step 5: Conclusion:
 
