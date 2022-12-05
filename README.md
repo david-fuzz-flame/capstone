@@ -47,7 +47,7 @@ This will help us determine how far are the predictions from the actual values o
 
 A performance indicator for machine learning classification problems where the output might be two or more classes is the confusion matrix. There are four possible anticipated and actual value combinations in the table.
 
-![](RackMultipart20221205-1-ut6qfb_html_8ea00e6c68dce2ee.png)
+![]('https://github.com/david-fuzz-flame/capstone/blob/main/images/confusion.png')
 
 1. Recall
 
