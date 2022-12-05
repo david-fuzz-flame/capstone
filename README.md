@@ -182,7 +182,7 @@ In order to implement any of the machine learning models, or computational algor
 
 This will be done by using label encoders. So, we first had to target the categorical values in the dataset. The code below shows how to target the categorical values using python.
 
-![](RackMultipart20221205-1-ut6qfb_html_15644d0ce3b33dc6.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/code1.png)
 
 The targeted variables are as follows 'gender', 'married', 'dependents', 'education', 'self\_employed', 'property\_area', 'loan\_status'.
 
