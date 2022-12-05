@@ -71,7 +71,7 @@ F-measure = (2\*Precision\*Recall) / (Recall + Precision)
 
 The receiver operating characteristic curve (ROC curve) is a graph that displays how well a classification model performs across all categorization levels. Two parameters are shown on this curve: % True Positive. Rate of False Positives.
 
-![](RackMultipart20221205-1-ut6qfb_html_bbf6ad2ef78ff8b1.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/roc.png)
 
 #
 
@@ -140,25 +140,25 @@ There are 4 Numerical columns totals and their statistical distribution is given
 
 1. **Applicant income Histogram Distribution**
 
-![]("https://github.com/david-fuzz-flame/capstone/blob/main/images/confusion.png")
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/hist1.png)
 
 The histogram here shows that the applicant's income is left skewed which means it distribution is positively skewed.
 
 1. **Co- Applicant Income**
 
-![](RackMultipart20221205-1-ut6qfb_html_d89fc8dd710b83b8.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/hist2.png)
 
 The histogram here shows that the co - applicant's income is left skewed which means it distribution is positively skewed.
 
 1. **Loan Amount**
 
-![](RackMultipart20221205-1-ut6qfb_html_9548d07e44ab4aed.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/hist3.png)
 
 The histogram here shows that the Loan Amount is left skewed which means it distribution is positively skewed. However, this plot is more normal distributed with respect to other plots.
 
 1. **Loan Term Count Plot**
 
-![](RackMultipart20221205-1-ut6qfb_html_8077b2513a0a38bb.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/hist4.png)
 
 The count plot shows that there are more applicants who have applied for a 3 years loan so it is estimated that this one value will be influential in decision making.
 
@@ -166,11 +166,11 @@ The count plot shows that there are more applicants who have applied for a 3 yea
 
 1. Showing the Gender Distribution, Dependent Distribution, Education Distribution in a pie chart.
 
-![](RackMultipart20221205-1-ut6qfb_html_3c908d2e5061956a.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/pie1.png)
 
 1. Showing the Self-Employed Distribution, Property Area Value Distribution, Loan Status Distribution in a pie chart.
 
-![](RackMultipart20221205-1-ut6qfb_html_befb5d5d2201168.png)
+![](https://github.com/david-fuzz-flame/capstone/blob/main/images/pie2.png)
 
 # Step 3 Methodology
 
