@@ -45,7 +45,7 @@ This will help us determine how far are the predictions from the actual values o
 
 The confusion matrix is a performance metric for machine learning classification situations where the output might be two or more classes. In the table, there are four potential combinations of predicted and actual values.
 
-![](Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.001.png)
+![](images/Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.001.png)
 
 1. Recall
 
@@ -69,7 +69,7 @@ F-measure = (2\*Precision\*Recall) / (Recall + Precision)
 
 The receiver operating characteristic curve (ROC curve) is a graph that displays how well a classification model performs across all categorization levels. Two parameters are shown on this curve: % True Positive. Rate of False Positives.
 
-![](Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.002.png)
+![](images/Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.002.png)
 
 
 
@@ -124,25 +124,25 @@ There are 4 Numerical columns totals and their statistical distribution is given
 
 1. **Applicant income Histogram Distribution**
 
-![](Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.003.png)
+![](images/Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.003.png)
 
 The histogram here shows that the applicant’s income is left skewed which means it distribution is positively skewed.
 
 1. **Co- Applicant Income**
 
-![](Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.004.png)
+![](images/Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.004.png)
 
 The histogram here shows that the co - applicant’s income is left skewed which means it distribution is positively skewed.
 
 1. **Loan Amount**
 
-![](Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.005.png)
+![](images/Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.005.png)
 
 The histogram here shows that the Loan Amount is left skewed which means it distribution is positively skewed. However, this plot is more normal distributed with respect to other plots.
 
 1. **Loan Term Count Plot**
 
-![](Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.006.png)
+![](images/Aspose.Words.7a188728-3004-4880-b26f-e890508db8f7.006.png)
 
 The count plot shows that there are more applicants who have applied for a 3 years loan so it is estimated that this one value will be influential in decision making.
 ### Categorical Distribution
